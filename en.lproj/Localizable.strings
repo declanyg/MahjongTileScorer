@@ -1,0 +1,43 @@
+/* 
+  Localizable.strings
+  MahjongTileScorer
+
+  Created by Declan Young on 6/2/2022.
+  
+*/
+//Content View
+"Input..." = "Input...";
+"Home" = "Home";
+"Dictionary" = "Dictionary";
+"Settings" = "Settings";
+//Input View
+"Done" = "Done";
+"All" = "All";
+//Dictionary View
+"1 Point" = "1 Point";
+"2 Points" = "2 Points";
+"3 Points" = "3 Points";
+"5 Points" = "5 Points";
+"10 Points" = "10 Points";
+"20 Points" = "20 Points";
+"30 Points" = "30 Points";
+"40 Points" = "40 Points";
+//Mahjong Tiles
+"Dot" = "Dot";
+"Dots" = "Dots";
+"Bamboo" = "Bamboo";
+"Bamboos" = "Bamboos";
+"Character" = "Character";
+"Characters" = "Characters";
+"Honour" = "Honour";
+"Honours" = "Honours";
+"1" = "1";
+"2" = "2";
+"3" = "3";
+"4" = "4";
+"5" = "5";
+"6" = "6";
+"7" = "7";
+"8" = "8";
+"9" = "9";
+

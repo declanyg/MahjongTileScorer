@@ -1,0 +1,230 @@
+/* 
+  Localizable.strings
+  MahjongTileScorer
+
+  Created by Declan Young on 6/2/2022.
+  
+*/
+//Content View
+"Input..." = "輸入...";
+"Home" = "首頁";
+"Dictionary" = "字典";
+"Settings" = "設定";
+"Error" = "錯誤";
+"Please enter 17 or more tiles" = "請選至少十七個牌";
+"Please enter last tile and/or combination" = "請選最後一牌或碰/吃";
+"Dismiss" = "確定";
+//Input View
+"Done" = "完成";
+"All" = "全";
+"Select Tiles" = "選牌";
+"More Inputs" = "更多輸入";
+"Discards Less Than 10" = "不到十個丟掉牌";
+"Number of Discards: %lld" = "丟掉的牌數量: %lld";
+"Dealer" = "莊";
+"Consecutive Wins: %lld" = "連莊: %lld";
+"Self Drawn Win" = "自摸";
+"Last Tile In Deck" = "海底撈月";
+"Last Tile"=  "最後一牌";
+"Last Combination" = "最後碰/吃/麻將";
+"Revealed Combinations" = "吃/碰/明槓";
+
+//Dictionary View
+"1 Point" = "一台";
+"2 Points" = "兩台";
+"3 Points" = "三台";
+"5 Points" = "五台";
+"10 Points" = "十台";
+"20 Points" = "二十台";
+"30 Points" = "三十台";
+"40 Points" = "四十台";
+////1 point
+"Flower Tile" = "花";
+"One point per flower tile" = "每花一台";
+
+"No Flowers" = "無花";
+"Hand contains no flower tiles" = "手牌沒花";
+
+"Pung of Honours" = "三元刻";
+"Hand contains a triplet of honour tiles" = "手牌有三元刻碰";
+
+"No Honours" = "無字";
+"Hand contains no honour tiles" = "手牌沒字";
+
+"Self-Drawn Win" = "自摸";
+"Winning with a self-drawn tile" = "自摸胡牌";
+
+"Melded Kong" = "明槓";
+"Hand contains one open quad" = "手牌有明槓";
+
+"Robbing the Kong" = "搶槓";
+"Winning with a tile that was used to promote a quad" = "別人加槓的牌，正是自己能胡的牌";
+
+"Last Tile Win Self-Drawn" = "海底撈月";
+"Winning on the last tile of the wall by self-drawing. Can combine with Self-Draw" = "摸進海底牌後剛好胡牌。可加計自摸";
+  
+"Concealed Hand" = "門清";
+"Winning with a concealed hand" = "胡牌前沒有吃、碰或明槓";
+////2 points
+"Concealed Kong" = "暗槓";
+"Hand contains a concealed quad" = "手牌有暗槓";
+
+"Single Wait" = "獨聽";
+"Winning with a single wait" = "獨聽胡";
+
+"Closed Wait" = "嵌張聽";
+"Winning with a closed wait" = "嵌張聽胡";
+
+"Two Concealed Pungs" = "雙暗坎";
+"Hand contains two concealed triplets" = "牌有兩個暗坎";
+////3 points
+"No Honours or Flowers" = "無字無花";
+"Hand contains no flower tiles or honour tiles. (Does not combine with No Flowers or No Honours)" = "花牌沒字跟花牌（不能跟無花或無字算）";
+
+"Fully Concealed Hand" = "不求人";
+"Going out on a fully concealed hand" = "完全沒有吃、碰或明槓";
+
+"All Chows (with Flowers or Honours)" = "全求人";
+"Hand contains all sequences, flower tiles, and/or a pair of honour tiles" = "牌全吃、碰或明槓。有花和些字";
+////5 points
+"Three Concealed Pungs" = "三暗坎";
+"Hand contains three concealed triplets" = "牌有三個暗坎";
+
+"Win Within 5 to 10 Discards" = "五牌後十牌前";
+"Winning when there is more than 5 but less than 10 discards on the table" = "在丟出十張牌之前和丟出五牌之後胡";
+
+"Full Straight (Open)" = "明龍";
+"Hand contains three sequences from 1-9 of the same suit with at least one sequence open" = "牌有某一種數牌的一九的牌各。至少一個是吃的。";
+
+"Little Three Winds" = "小三風";
+"Hand contains two triplets and a pair of wind tiles" = "胡牌時有三副風刻組成的牌和元牌麻將";
+////10 points
+"Half Flush" = "混一色";
+"Hand is composed of one suit and honour tiles" = "由一種花色的序數牌及字牌組成的牌型";
+
+"All Pungs" = "對對胡";
+"Hand contains all pungs" = "牌全碰的";
+
+"Full Straight (Closed)" = "暗龍";
+"Hand contains three seqeuences from 1-9 of the same suit with all sequences closed" = "牌有某一種數牌的一九九的牌各。沒吃";
+
+"All Chows (without Flowers and Honours)" = "全吃無花無元字";
+"Hand contains all sequences and no honour tiles or flower tiles" = "牌是全吃的。沒花或字";
+
+"All Revealed" = "全求人";
+"Winning wwith all open sets. The pair can be won by discard or self-draw" = "胡牌者手牌皆已吃、碰、明槓 只剩1張手牌，胡牌時由其他家放槍";
+
+"Win Within 5 Discards" = "五牌前";
+"Winning when there are 5 or less discards on the table" = "在丟出五牌之前胡";
+
+"Little Three Dragons" = "小三元";
+"Two triplets and a pair composed of dragon tiles" = "胡牌時有三元牌的二副刻子及將牌。不計三元刻";
+
+"Ready Hand" = "天聽";
+"Player has a ready hand with the initially dealt hand. The read hand must be announced and cannot be changed thereafter" = "配牌即聽牌，且叫聽後不能換牌。門清、不求不能算，可以加計自摸。";
+
+"Big Three Winds" = "大三風";
+"Three triplets composed of wind tiles" = "胡牌時有風牌的三副刻子";
+
+"Four Concealed Pungs" = "四暗坎";
+"Hand contains four concealed triplets. Quads count as a concealed triplet" = "牌有四個暗坎。暗槓能算成坎";
+////20 points
+"7 Flowers And Robbing The 8th" = "七搶一";
+"Having seven flowers and robbing the eight. No other scoring is counted" = "持七張花牌可以搶別家一張花牌湊滿花牌而胡牌";
+////30 points
+"All Flowers" = "八仙過海";
+"Having eight flower tiles. No other scoring is counted" = "取得全部8張花牌而胡牌。只算著牌型";
+
+"Little Four Winds" = "小四喜";
+"Having three triplets and a pair composed of wind tiles" = "胡牌時有風牌的三副刻子及將牌";
+
+"Big Three Dragons" = "大三元";
+"Having three triplets composed of dragon tiles" = "胡牌時有三元牌三副刻子";
+
+"Seven Pairs and a Pung" = "嚦咕嚦咕";
+"Hand contains seven pairs (identical or not) and one triplet" = "七張對子和一個碰";
+////40 points
+"Big Four Winds" = "大四喜";
+"Hand contains four triplets composed of wind tiles" = "胡牌時有四副風刻組成的牌";
+
+"Full Flush" = "清一色";
+"Hand is composed of one suit" = "由一種花色的序數牌組成的牌型";
+
+"Blessing of Heaven" = "天胡";
+"Winning as the dealer on the initially dealt hand" = "莊家補花自摸胡";
+
+"Blessing of Earth" = "地胡";
+"Winning as a non-dealer on the dealer's first discard" = "閒家於第一次摸牌即自摸胡";
+
+"Five Concealed Pungs" = "五暗坎";
+"Hand contains five concealed triplets. A quand counts as a concealed triplet" = "牌有五個暗坎";
+
+//Mahjong Tiles
+"Dot" = "餅";
+"Dots" = "餅";
+"Bamboo" = "條";
+"Bamboos" = "條";
+"Character" = "萬";
+"Characters" = "萬";
+"Honour" = "字";
+"Honours" = "字";
+"1" = "一";
+"2" = "二";
+"3" = "三";
+"4" = "四";
+"5" = "五";
+"6" = "六";
+"7" = "七";
+"8" = "八";
+"9" = "九";
+//Dots
+"1 Dot" = "一餅";
+"2 Dot" = "二餅";
+"3 Dot" = "三餅";
+"4 Dot" = "四餅";
+"5 Dot" = "五餅";
+"6 Dot" = "六餅";
+"7 Dot" = "七餅";
+"8 Dot" = "八餅";
+"9 Dot" = "九餅";
+//Bamboo
+"1 Bamboo" = "一條";
+"2 Bamboo" = "二條";
+"3 Bamboo" = "三條";
+"4 Bamboo" = "四條";
+"5 Bamboo" = "五條";
+"6 Bamboo" = "六條";
+"7 Bamboo" = "七條";
+"8 Bamboo" = "八條";
+"9 Bamboo" = "九條";
+//Character
+"1 Character" = "一萬";
+"2 Character" = "二萬";
+"3 Character" = "三萬";
+"4 Character" = "四萬";
+"5 Character" = "五萬";
+"6 Character" = "六萬";
+"7 Character" = "七萬";
+"8 Character" = "八萬";
+"9 Character" = "九萬";
+//Honours
+"East Wind" = "東風";
+"South Wind" = "南風";
+"West Wind" = "西風";
+"North Wind" = "北風";
+"Red Dragon" = "中";
+"Green Dragon" = "發";
+"White Dragon" = "白版";
+//Bonuses
+"Spring" = "春";
+"Summer" = "夏";
+"Autumn" = "秋";
+"Winter" = "冬";
+"Plum" = "梅";
+"Orchid" = "蘭";
+"Chrysanthemum" = "菊";
+//Breakdown
+"Breakdown" = "分解";
+"Cancel" = "取消";
+"Total Points: %lld" = "%lld分";
+
